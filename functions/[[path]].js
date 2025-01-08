@@ -1,7 +1,7 @@
 export async function onRequest({ request }) {
 	const url = new URL(request.url)
 
-	const proxyUrl = 'https://moeisonlini.buzz'
+	const proxyUrl = 'https://lowieskoseaq.sbs'
 	const backendUrl = `${proxyUrl}${url.pathname}`
 
 	const headers = new Headers(request.headers)
